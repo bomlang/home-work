@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 그라데이션 하는 방법을 몰라 조금 어둡게 만들었습니다. */
+.term__container{
+    background: linear-gradient(to bottom, #a3a3a3, #ccc);
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    padding: 16px;
+    width: 250px;
+    height: 259px;
+}
+
+.term__header{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.term__dl{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.term__dt, .term__dt2{
+    font-size: 14px;
+    font-weight: 700;
+    color: #296897;
+    margin: 7px 0;
+}
+
+.term__dd, .term__dd2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+dd{
+    margin: 0;
+}
+
+.term__img{
+    float: left;
+    margin-right: 10px ;
+    margin-bottom: 15px;
+}
+
+.term__img2{
+    float: right;
+    margin-left: 10px ;
+    margin-bottom: 15px;
+}

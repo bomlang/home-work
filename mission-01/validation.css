@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vali{
+    list-style: none;
+}
+
+/* 중제목 가리고, aria-hidden attribute true값 제공 */
+#vali__title{
+    display: none;
+}
+
+.vali__link{
+    text-decoration: none;
+    color: black;
+}
+
+.vali__box{
+    width: 250px;
+    height: 37px;
+    background-color: #ccc;
+    margin: 20px 0;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+.vali__img{
+    float: left;
+}
+
+.vali__text {
+    float: left;
+    font-weight: 400;
+    margin: 0;
+}
