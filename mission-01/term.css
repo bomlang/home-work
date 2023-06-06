@@ -11,7 +11,7 @@ body{
 
 /* 그라데이션 하는 방법을 몰라 조금 어둡게 만들었습니다. */
 .term__container{
-    background: linear-gradient(to bottom, #a3a3a3, #ccc);
+    background: linear-gradient(180deg, #ccc 0%, #eee 100%);
     border: 1px solid #a3a3a3;
     border-radius: 5px;
     padding: 16px;
