@@ -1,14 +1,14 @@
-#포지션 과제 (Position assignment)
+# 포지션 과제 (Position assignment)
 
 ---
 
-##과제 결과
+## 과제 결과
 
 ![Position을 활용한 과제 결과물](./img/결과물.png "Position을 활용한 과제 결과물")
 
 ---
 
-##HTML과 CSS구조 설계
+## HTML과 CSS구조 설계
 
 ![HTML 구조](img/html구조.png "HTML 구조")
 
@@ -30,7 +30,7 @@
 
 ---
 
-##과제하면서 느낀점
+## 과제하면서 느낀점
 
 - 대략적인 HTML구조를 그리고 시작헀지만 CSS에서 막히면서 컨테이너박스를 몇번 더 추가했다.
 
