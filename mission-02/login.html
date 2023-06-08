@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login | Homework</title>
+    <script
+      src="https://kit.fontawesome.com/7fd818e661.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <article>
+      <div id="login">
+        <h2 class="login__title">로그인</h2>
+        <div class="login__container">
+          <div class="login__box">
+            <div id="userBox">
+              <form action="#" method="post">
+                <fieldset class="login__field">
+                  <legend class="login__legend" aria-hidden="true">
+                    로그인
+                  </legend>
+                  <div class="login__userId">
+                    <label for="userId" class="userId__label">아이디</label>
+                    <input
+                      type="text"
+                      id="userId"
+                      name="userId"
+                      required
+                      placeholder="euid@euid.dev"
+                    />
+                  </div>
+                  <div class="login__userPw">
+                    <label for="userPw" class="userPw__laber">비밀번호</label>
+                    <input
+                      type="password"
+                      id="userPw"
+                      name="userPw"
+                      required
+                      placeholder="8자리 이상"
+                    />
+                  </div>
+                  <button type="submit" class="login__btn">로그인</button>
+                </fieldset>
+              </form>
+            </div>
+            <div class="login__box__user">
+              <a href="#">
+                <div class="login__box__user__group">
+                  <i class="fa-solid fa-chevron-right fa-xs"></i>
+                  <span>회원가입</span>
+                </div>
+              </a>
+              <a href="#">
+                <div class="login__box__user__group2">
+                  <i class="fa-solid fa-chevron-right fa-xs"></i>
+                  <span>아이디 비밀번호 찾기</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

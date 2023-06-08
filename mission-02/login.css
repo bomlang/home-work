@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#login {
+  background: linear-gradient(to right, #ed552f 0%, #e8852e 100%);
+  width: 244px;
+  height: 161px;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__title {
+  height: 23px;
+  width: 39px;
+  font-size: 15px;
+  color: #ff0;
+  margin: 4px 0;
+  cursor: default;
+}
+
+.login__box {
+  width: 220px;
+  height: 106px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.login__field {
+  border: none;
+  position: relative;
+}
+
+.login__legend {
+  clip: rect(0 0 0 0);
+  border: 0;
+  padding: 0;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.login__userId,
+.login__userPw {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.login__userId {
+  margin-bottom: 4px;
+}
+
+.userId__label {
+  margin-right: 17px;
+}
+
+.userPw__laber {
+  margin-right: 5px;
+}
+
+#userId,
+#userPw {
+  width: 90px;
+  height: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.login__btn {
+  width: 50px;
+  height: 53px;
+  background-color: #ed552f;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.login__box__user {
+  font-size: 13px;
+}
+
+#userBox {
+  height: 69px;
+  border-bottom: 1px solid #ccc;
+}
+
+.login__box__user {
+  padding: 8px 0;
+}
+
+.login__box__user a {
+  text-decoration: none;
+  color: black;
+}
+
+.login__box__user__group {
+  float: left;
+}
+
+.login__box__user__group2 {
+  float: right;
+}
+
+.login__box__user__group span,
+.login__box__user__group2 span {
+  margin-left: 5px;
+}
