@@ -1,0 +1,136 @@
+/****** scope ******/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+/****** Event Box ******/
+.event-relate__title {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.event-relate__container {
+  width: 190px;
+  height: 270px;
+  background: linear-gradient(to bottom, #ccc 0%, #eee 100%);
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 8px;
+  transition: height 0.3s ease-in-out;
+}
+
+.event__container {
+  width: 166px;
+  height: 177px;
+  padding-bottom: 16px;
+}
+
+.event__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event__title,
+.relate__title {
+  font-size: 15px;
+  line-height: 22.5px;
+}
+
+.event__title :last-child,
+.relate__title :last-child {
+  color: #ed552f;
+}
+
+.event__snapBtn {
+  width: 44px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.event__snapBtn button {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.event__snapBtn :last-child img {
+  transform: scaleX(-1);
+}
+
+#event__img {
+  width: 160px;
+  height: 80px;
+  margin: 8px 0;
+  filter: drop-shadow(5px, 5px, 0, #aaa);
+}
+
+.event__info {
+  width: 163px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #a3a3a3;
+}
+
+.event__info p {
+  padding-bottom: 16px;
+}
+
+/****** Relate Box ******/
+.relate__container {
+  width: 166px;
+  height: 176px;
+  margin-top: 12px;
+}
+
+.relate__title {
+  margin-bottom: 8px;
+}
+
+.relate__listBox {
+  width: 166px;
+  height: 29px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 6px 24px;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.event-relate__container:hover {
+  height: 385px;
+}
+
+.event-relate__container:hover .relate__listBox {
+  height: 145px;
+}
+
+.relate__listBox li > a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 13px;
+  line-height: 21px;
+  width: 71px;
+  height: 29px;
+}
+
+.relate__listBox .relate__listBox__site {
+  list-style: none;
+}
