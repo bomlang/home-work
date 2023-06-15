@@ -27,8 +27,48 @@ body {
   color: #ed552f;
 }
 
+.popular__list {
+  margin-top: 20px;
+}
+
+.popular__list__item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.popular__list__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+}
+
+.item__bg {
+  background: url(./img/rank.png) no-repeat;
+  width: 9px;
+  height: 9.5px;
+}
+
 .papular__more {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 8px;
+  right: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.papular__more span {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.bgMid {
+  background-position: 0 -20px;
+}
+
+.bgDown {
+  background-position: 0 -45px;
 }
